@@ -24,7 +24,6 @@
 		5ACC142F1C19149B00933976 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ACC14221C19149B00933976 /* MobileCoreServices.framework */; };
 		5ACC14321C19149B00933976 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACC14311C19149B00933976 /* AppDelegate.swift */; };
 		5ACC14331C19149B00933976 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACC14311C19149B00933976 /* AppDelegate.swift */; };
-		5ACC14381C19149B00933976 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5ACC14371C19149B00933976 /* .gitignore */; };
 		5ACC143C1C19149B00933976 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5ACC143A1C19149B00933976 /* Localizable.strings */; };
 		5ACC144B1C19149B00933976 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ACC144A1C19149B00933976 /* Default@2x.png */; };
 		5ACC144D1C19149B00933976 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ACC144C1C19149B00933976 /* Default.png */; };
@@ -53,7 +52,6 @@
 		5ACC14281C19149B00933976 /* SoaiCa_Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoaiCa_Dev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ACC14311C19149B00933976 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5ACC14361C19149B00933976 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
-		5ACC14371C19149B00933976 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
 		5ACC143B1C19149B00933976 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		5ACC143F1C19149B00933976 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Common/Categories/README; sourceTree = "<group>"; };
 		5ACC14411C19149B00933976 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Common/Utilities/README; sourceTree = "<group>"; };
@@ -149,7 +147,6 @@
 			isa = PBXGroup;
 			children = (
 				5ACC14311C19149B00933976 /* AppDelegate.swift */,
-				5ACC14371C19149B00933976 /* .gitignore */,
 				5ACC145D1C19149B00933976 /* Main.storyboard */,
 				5ACC14641C19149C00933976 /* Assets.xcassets */,
 				5ACC14661C19149C00933976 /* LaunchScreen.storyboard */,
@@ -380,7 +377,6 @@
 				5ACC144B1C19149B00933976 /* Default@2x.png in Resources */,
 				5A90EC151C20208A00EC945C /* Images.xcassets in Resources */,
 				5ACC145F1C19149B00933976 /* Main.storyboard in Resources */,
-				5ACC14381C19149B00933976 /* .gitignore in Resources */,
 				5ACC143C1C19149B00933976 /* Localizable.strings in Resources */,
 				5ACC14681C19149C00933976 /* LaunchScreen.storyboard in Resources */,
 				5ACC14651C19149C00933976 /* Assets.xcassets in Resources */,
@@ -568,6 +564,7 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				INFOPLIST_FILE = SoaiCa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zoomcancode.com.SoaiCa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -581,6 +578,7 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				INFOPLIST_FILE = SoaiCa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zoomcancode.com.SoaiCa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
